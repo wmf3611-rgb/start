@@ -43,20 +43,28 @@ h1 {
     margin-bottom: 20px;
 }
 
-.theme-toggle {
+.controls {
     position: fixed;
     top: 20px;
     right: 20px;
     z-index: 100;
+    display: flex;
+    gap: 10px;
 }
 
-#theme-btn {
+#theme-btn, #lang-btn {
     padding: 8px 16px;
     cursor: pointer;
     border-radius: 20px;
     border: 1px solid var(--text-color);
     background-color: transparent;
     color: var(--text-color);
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+#theme-btn:hover, #lang-btn:hover {
+    background-color: var(--card-hover-bg-color);
 }
 
 .mbti-grid {
