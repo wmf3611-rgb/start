@@ -458,16 +458,84 @@ const translations = {
             }
         }
     }
+    ja: {
+        title: 'MBTIインサイト',
+        subtitle: '詳細な特性分析を通じて、性格タイプの深層を探求してください。',
+        themeLight: 'ライトモード',
+        themeDark: 'ダークモード',
+        langBtn: 'English',
+        aboutTitle: 'MBTIとは？',
+        aboutContent: 'マイヤーズ・ブリッグス・タイプ指標（MBTI）は、人々が世界をどのように認識し、決定を下すかについての心理的な好みを表す自己報告式のアンケートです。自分のタイプを理解することは、キャリア選択や人間関係を含む人生のさまざまな側面で大いに役立ちます。',
+        headers: {
+            summary: '概要',
+            strengths: '長所',
+            weaknesses: '短所',
+            careers: 'おすすめの職業',
+            famous: '有名人',
+            compatibility: '相性',
+            dating: '恋愛スタイル',
+            communication: 'コミュニケーション',
+            caution: '注意点'
+        },
+        data: {}
+    },
+    zh: {
+        title: 'MBTI 洞察',
+        subtitle: '通过详细的特征分析，深入探索人格类型的奥秘。',
+        themeLight: '亮色模式',
+        themeDark: '暗色模式',
+        langBtn: 'English',
+        aboutTitle: '什么是 MBTI？',
+        aboutContent: '迈尔斯-布里格斯类型指标 (MBTI) 是一种内省的自我报告问卷，表明人们在感知世界和做决定方面不同的心理偏好。了解你的类型可以帮助你在职业选择和人际关系等生活的各个方面。',
+        headers: {
+            summary: '概要',
+            strengths: '优势',
+            weaknesses: '劣势',
+            careers: '推荐职业',
+            famous: '著名人物',
+            compatibility: '兼容性',
+            dating: '恋爱风格',
+            communication: '沟通风格',
+            caution: '注意事项'
+        },
+        data: {}
+    },
+    es: {
+        title: 'Perspectiva MBTI',
+        subtitle: 'Explora las profundidades de los tipos de personalidad con características detalladas.',
+        themeLight: 'Modo Claro',
+        themeDark: 'Modo Oscuro',
+        langBtn: 'English',
+        aboutTitle: '¿Qué es MBTI?',
+        aboutContent: 'El Indicador de Tipo Myers-Briggs (MBTI) es un cuestionario introspectivo de autoinforme que indica diferentes preferencias psicológicas en cómo las personas perciben el mundo y toman decisiones.',
+        headers: {
+            summary: 'Resumen',
+            strengths: 'Fortalezas',
+            weaknesses: 'Debilidades',
+            careers: 'Mejores Carreras',
+            famous: 'Figuras Famosas',
+            compatibility: 'Compatibilidad',
+            dating: 'Estilo de Citas',
+            communication: 'Estilo de Comunicación',
+            caution: 'Cosas a tener en cuenta'
+        },
+        data: {}
+    }
 };
+
+// Populate data for new languages using English as fallback
+['ja', 'zh', 'es'].forEach(lang => {
+    translations[lang].data = JSON.parse(JSON.stringify(translations.en.data));
+});
 
 let currentLang = localStorage.getItem('lang') || 'en';
 let currentTheme = localStorage.getItem('theme') || 'light';
+const languages = ['en', 'ko', 'ja', 'zh', 'es'];
 
 function updateUI() {
     const t = translations[currentLang];
     mainTitle.textContent = t.title;
     mainSubtitle.textContent = t.subtitle;
-    langBtn.textContent = t.langBtn;
     aboutTitle.textContent = t.aboutTitle;
     aboutContent.textContent = t.aboutContent;
     
@@ -476,6 +544,18 @@ function updateUI() {
     } else {
         themeBtn.textContent = t.themeDark;
     }
+
+    const currentIndex = languages.indexOf(currentLang);
+    const nextIndex = (currentIndex + 1) % languages.length;
+    const nextLangCode = languages[nextIndex];
+    const langNames = {
+        'en': 'English',
+        'ko': '한국어',
+        'ja': '日本語',
+        'zh': '中文',
+        'es': 'Español'
+    };
+    langBtn.textContent = langNames[nextLangCode];
 
     // Update active details if visible
     const activeType = mbtiTitle.dataset.currentType;
@@ -577,7 +657,9 @@ themeBtn.addEventListener('click', () => {
 });
 
 langBtn.addEventListener('click', () => {
-    currentLang = currentLang === 'en' ? 'ko' : 'en';
+    const currentIndex = languages.indexOf(currentLang);
+    const nextIndex = (currentIndex + 1) % languages.length;
+    currentLang = languages[nextIndex];
     localStorage.setItem('lang', currentLang);
     updateUI();
 });
