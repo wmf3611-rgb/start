@@ -1,6 +1,7 @@
 const htmlElement = document.documentElement;
 const themeBtn = document.getElementById('theme-btn');
 const langBtn = document.getElementById('lang-btn');
+const langMenu = document.getElementById('lang-menu');
 const mbtiGrid = document.getElementById('mbti-grid');
 const mbtiDetails = document.getElementById('mbti-details');
 const mbtiTitle = document.getElementById('mbti-title');
@@ -9,6 +10,15 @@ const mainTitle = document.getElementById('main-title');
 const mainSubtitle = document.getElementById('main-subtitle');
 const aboutTitle = document.getElementById('about-title');
 const aboutContent = document.getElementById('about-content');
+
+const languages = ['en', 'ko', 'ja', 'zh', 'es'];
+const langNames = {
+    'en': 'English',
+    'ko': '한국어',
+    'ja': '日本語',
+    'zh': '中文',
+    'es': 'Español'
+};
 
 const icons = {
     'INTJ': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>',
@@ -35,7 +45,6 @@ const translations = {
         subtitle: 'Explore the depths of personality types with detailed characteristics.',
         themeLight: 'Light Mode',
         themeDark: 'Dark Mode',
-        langBtn: '한국어',
         aboutTitle: 'What is MBTI?',
         aboutContent: 'The Myers-Briggs Type Indicator (MBTI) is an introspective self-report questionnaire indicating differing psychological preferences in how people perceive the world and make decisions. Understanding your type can help you in various aspects of life, including career choice and relationships.',
         headers: {
@@ -249,7 +258,6 @@ const translations = {
         subtitle: '상세한 특징 분석을 통해 성격 유형의 깊이를 탐구해보세요.',
         themeLight: '라이트 모드',
         themeDark: '다크 모드',
-        langBtn: 'English',
         aboutTitle: 'MBTI란 무엇인가요?',
         aboutContent: '마이어스-브릭스 유형 지표(MBTI)는 사람들이 세상을 어떻게 인식하고 결정을 내리는지에 대한 심리적 선호도를 나타내는 자기 보고식 설문 조사입니다. 자신의 유형을 이해하면 직업 선택과 인간관계를 포함한 삶의 다양한 측면에서 큰 도움이 될 수 있습니다.',
         headers: {
@@ -332,7 +340,7 @@ const translations = {
                 careers: '작가, 예술가, 치료사, 사서, 사회복지사',
                 famous: '윌리엄 셰익스피어, J.R.R. 톨킨, 줄리아 로버츠, 조니 뎁',
                 compatibility: 'ENFJ, ENTJ와 궁합이 좋습니다. 자신의 아이디어를 현실적인 실행으로 옮겨줄 수 있는 파트너가 필요합니다.',
-                dating: '진정성을 중요시하는 낭만주의자입니다. 처음에는 수줍어 보일 수 있지만, 믿음이 생기면 깊은 사랑을 쏟습니다.',
+                dating: '진정성을 중요시하는 낭만주의자입니다. 처음에는 수줍어 보일 수 있지만, 믿음집이 생기면 깊은 사랑을 쏟습니다.',
                 communication: '부드럽고 표현력이 풍부하며 갈등을 피합니다. 팩트보다는 비유와 가치 중심의 대화를 선호합니다.',
                 caution: '가혹한 비판이나 엄격한 사회적 규범을 강요하지 마세요. 그들의 개인적인 가치관을 존중해주는 것이 필수적입니다.'
             },
@@ -399,7 +407,7 @@ const translations = {
             'ESFJ': {
                 name: '사교적인 외교관',
                 summary: '타인을 돕는 데 열성적이며, 공동체 의식이 강하고 사교적인 개인입니다. 조화를 추구하며 주변 사람들이 존중받고 가치 있게 느껴지도록 만드는 분위기 메이커입니다.',
-                strengths: '• 강한 실용적 기술: 일상적인 과업이나 이벤트를 관리하는 데 탁월합니다.\n• 강한 의무감: 타인을 돕는 것을 개인적인 사명으로 느낍니다.\n• 충성심: 가족과 사회적 관계에 깊이 헌신합니다.\n• 사회적 교감: 사회적 신호를 읽고 유대감을 형성하는 데 능숙합니다.',
+                strengths: '• 강한 실용적 기술: 일상적인 과업이나 이벤트를 관리하는 데 탁월합니다.\n• 강한 의무감: 타인을 돕는 것을 개인적인 사명으로 느킵니다.\n• 충성심: 가족과 사회적 관계에 깊이 헌신합니다.\n• 사회적 교감: 사회적 신호를 읽고 유대감을 형성하는 데 능숙합니다.',
                 weaknesses: '• 지위에 대한 걱정: 타인의 시선을 지나치게 의식할 때가 있습니다.\n• 융통성 부족: 비전통적인 라이프스타일을 받아들이는 데 서툴 수 있습니다.\n• 비판에 취약: 부정적인 피드백을 매우 개인적인 공격으로 받아들입니다.\n• 과도한 인정 욕구: 끊임없는 확인과 승인을 필요로 할 수 있습니다.',
                 careers: '의료 종사자, 이벤트 플래너, 교사, 특수 교육, 인사 매니저',
                 famous: '테일러 스위프트, 빌 클린턴, 제니퍼 가너, 스티브 하비',
@@ -463,9 +471,8 @@ const translations = {
         subtitle: '詳細な特性分析を通じて、性格タイプの深層を探求してください。',
         themeLight: 'ライトモード',
         themeDark: 'ダークモード',
-        langBtn: 'English',
         aboutTitle: 'MBTIとは？',
-        aboutContent: 'マイヤーズ・ブリッグス・タイプ指標（MBTI）は、人々が世界をどのように認識し、決定を下すかについての心理的な好みを表す自己報告式のアンケートです。自分のタイプを理解することは、キャリア選択や人間関係を含む人生のさまざまな側面で大いに役立ちます。',
+        aboutContent: 'マイヤーズ・ブリッグス・タイプ指標（MBTI）は、人々が世界をどのように認識し、決定を下すかについての心理的な好みを表す自我報告式のアンケートです。自分のタイプを理解することは、キャリア選択や人間関係を含む人生のさまざまな側面で大いに役立ちます。',
         headers: {
             summary: '概要',
             strengths: '長所',
@@ -474,7 +481,7 @@ const translations = {
             famous: '有名人',
             compatibility: '相性',
             dating: '恋愛スタイル',
-            communication: 'コミュニケーション',
+            communication: '対話スタイル',
             caution: '注意点'
         },
         data: {}
@@ -484,7 +491,6 @@ const translations = {
         subtitle: '通过详细的特征分析，深入探索人格类型的奥秘。',
         themeLight: '亮色模式',
         themeDark: '暗色模式',
-        langBtn: 'English',
         aboutTitle: '什么是 MBTI？',
         aboutContent: '迈尔斯-布里格斯类型指标 (MBTI) 是一种内省的自我报告问卷，表明人们在感知世界和做决定方面不同的心理偏好。了解你的类型可以帮助你在职业选择和人际关系等生活的各个方面。',
         headers: {
@@ -505,7 +511,6 @@ const translations = {
         subtitle: 'Explora las profundidades de los tipos de personalidad con características detalladas.',
         themeLight: 'Modo Claro',
         themeDark: 'Modo Oscuro',
-        langBtn: 'English',
         aboutTitle: '¿Qué es MBTI?',
         aboutContent: 'El Indicador de Tipo Myers-Briggs (MBTI) es un cuestionario introspectivo de autoinforme que indica diferentes preferencias psicológicas en cómo las personas perciben el mundo y toman decisiones.',
         headers: {
@@ -530,10 +535,10 @@ const translations = {
 
 let currentLang = localStorage.getItem('lang') || 'en';
 let currentTheme = localStorage.getItem('theme') || 'light';
-const languages = ['en', 'ko', 'ja', 'zh', 'es'];
 
 function updateUI() {
-    const t = translations[currentLang];
+    const t = translations[currentLang] || translations.en;
+    
     mainTitle.textContent = t.title;
     mainSubtitle.textContent = t.subtitle;
     aboutTitle.textContent = t.aboutTitle;
@@ -545,17 +550,8 @@ function updateUI() {
         themeBtn.textContent = t.themeDark;
     }
 
-    const currentIndex = languages.indexOf(currentLang);
-    const nextIndex = (currentIndex + 1) % languages.length;
-    const nextLangCode = languages[nextIndex];
-    const langNames = {
-        'en': 'English',
-        'ko': '한국어',
-        'ja': '日本語',
-        'zh': '中文',
-        'es': 'Español'
-    };
-    langBtn.textContent = langNames[nextLangCode];
+    // Set button text to the CURRENT language name
+    langBtn.textContent = langNames[currentLang];
 
     // Update active details if visible
     const activeType = mbtiTitle.dataset.currentType;
@@ -595,7 +591,7 @@ function showDetails(type) {
 }
 
 function renderDetails(type) {
-    const t = translations[currentLang];
+    const t = translations[currentLang] || translations.en;
     const data = t.data[type];
     
     mbtiTitle.textContent = `${type}: ${data.name}`;
@@ -656,12 +652,27 @@ themeBtn.addEventListener('click', () => {
     updateUI();
 });
 
-langBtn.addEventListener('click', () => {
-    const currentIndex = languages.indexOf(currentLang);
-    const nextIndex = (currentIndex + 1) % languages.length;
-    currentLang = languages[nextIndex];
-    localStorage.setItem('lang', currentLang);
-    updateUI();
+// Language Dropdown Logic
+langBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    langMenu.classList.toggle('show');
+});
+
+langMenu.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const selectedLang = btn.dataset.lang;
+        if (selectedLang && languages.includes(selectedLang)) {
+            currentLang = selectedLang;
+            localStorage.setItem('lang', currentLang);
+            updateUI();
+            langMenu.classList.remove('show');
+        }
+    });
+});
+
+// Close dropdown when clicking outside
+window.addEventListener('click', () => {
+    langMenu.classList.remove('show');
 });
 
 // Initial Render

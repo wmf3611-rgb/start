@@ -20,10 +20,17 @@
                 <a href="#mbti-grid">Personalities</a>
                 <a href="#about-section">About</a>
             </nav>
-            <div class="controls">
-                <button id="lang-btn">한국어</button>
-                <button id="theme-btn">Dark Mode</button>
+            <div class="lang-dropdown">
+                <button id="lang-btn" class="dropdown-toggle">English</button>
+                <div id="lang-menu" class="dropdown-menu">
+                    <button data-lang="en">English</button>
+                    <button data-lang="ko">한국어</button>
+                    <button data-lang="ja">日本語</button>
+                    <button data-lang="zh">中文</button>
+                    <button data-lang="es">Español</button>
+                </div>
             </div>
+            <button id="theme-btn">Dark Mode</button>
         </div>
     </header>
 
