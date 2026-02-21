@@ -148,31 +148,51 @@ const translations = {
             },
             'ISTJ': {
                 name: 'Logistician',
-                summary: 'Practical, fact-minded, and reliable individuals who value order and responsibility.',
-                strengths: '• Honest and direct\n• Strong-willed and dutiful\n• Responsible and organized\n• Calm and practical',
-                weaknesses: '• Stubborn and inflexible\n• Judgmental of others\n• Often blame themselves\n• Insensitive to emotions',
-                careers: 'Accountant, Auditor, Police Officer, Military Leader, Office Manager.'
+                summary: 'Practical, fact-minded, and reliable individuals who value order and responsibility. They are the backbone of any organization, ensuring that systems and traditions are upheld with integrity and precision.',
+                strengths: '• Honest and direct: They value integrity above all.\n• Strong-willed: They fulfill their duties regardless of obstacles.\n• Responsible: They are highly organized and meet deadlines.\n• Calm and practical: They stay grounded even in stressful situations.',
+                weaknesses: '• Stubborn: They can be resistant to new ideas that challenge tradition.\n• Judgmental: They may have little patience for those who don\'t follow rules.\n• Self-blaming: They take responsibility for things outside their control.\n• Insensitive: Their focus on facts can sometimes ignore emotional needs.',
+                careers: 'Accountant, Auditor, Police Officer, Military Leader, Office Manager.',
+                famous: 'George Washington, Angela Merkel, Anthony Hopkins, Natalie Portman.',
+                compatibility: 'Best with ESFP and ESTP. They value partners who bring excitement but respect their stability.',
+                dating: 'They are serious and reliable partners. They show love through practical actions and value traditional relationship structures.',
+                communication: 'Factual, structured, and literal. They prefer clear instructions and dislike ambiguity or exaggeration.',
+                caution: 'Be clear and concise with your expectations. Respect their need for order and don\'t change plans at the last minute.'
             },
             'ISFJ': {
                 name: 'Defender',
-                summary: 'Dedicated, warm, and protective individuals who are always ready to support their loved ones.',
-                strengths: '• Supportive and reliable\n• Patient and observant\n• Imaginative and enthusiastic\n• Loyal and hardworking',
-                weaknesses: '• Humble to a fault\n• Take things personally\n• Repress their feelings\n• Overload themselves',
-                careers: 'Nurse, Teacher, Social Worker, Customer Service, Interior Designer.'
+                summary: 'Dedicated, warm, and protective individuals who are always ready to support their loved ones. They are the silent helpers, often working behind the scenes to ensure everyone is cared for and comfortable.',
+                strengths: '• Supportive: They are always there when someone needs help.\n• Patient: They have the ability to handle repetitive or difficult tasks.\n• Loyal: Their commitment to family and friends is unwavering.\n• Observant: They notice small details that others often miss.',
+                weaknesses: '• Humble to a fault: They often downplay their own achievements.\n• Take things personally: They can be deeply hurt by minor criticisms.\n• Repress feelings: They may hide their emotions to avoid burdening others.\n• Overload themselves: They have difficulty saying "no" to people.',
+                careers: 'Nurse, Teacher, Social Worker, Customer Service, Interior Designer.',
+                famous: 'Mother Teresa, Beyonce, Aretha Franklin, Kate Middleton.',
+                compatibility: 'Best with ESFP and ESTP. They need partners who can help them step out of their comfort zone and appreciate their care.',
+                dating: 'They are incredibly nurturing and loyal partners. They value long-term stability and show love through thoughtful gestures and service.',
+                communication: 'Gentle, kind, and detail-oriented. They listen more than they speak and often focus on others\' well-being.',
+                caution: 'Don\'t take their quiet support for granted. Show genuine appreciation and avoid being overly harsh or abrasive.'
             },
             'ESTJ': {
                 name: 'Executive',
-                summary: 'Excellent administrators who are unsurpassed at managing things and people.',
-                strengths: '• Dedicated and strong-willed\n• Direct and honest\n• Loyal and reliable\n• Excellent organizers',
-                weaknesses: '• Inflexible and stubborn\n• Uncomfortable with change\n• Judgmental and bossy\n• Difficulty expressing emotion',
-                careers: 'Project Manager, General Manager, Financial Officer, Government Official.'
+                summary: 'Excellent administrators who are unsurpassed at managing things and people. They value tradition, order, and clear rules, and they are often the ones who bring people together for a common purpose.',
+                strengths: '• Dedicated: They are committed to seeing a job through to the end.\n• Direct and honest: You always know where you stand with them.\n• Loyal: They are dependable partners and friends.\n• Excellent organizers: They are experts at managing resources and people.',
+                weaknesses: '• Inflexible: They may struggle with change or unconventional ideas.\n• Uncomfortable with new: They prefer tried-and-true methods over innovation.\n• Judgmental: They can be harsh with those who don\'t meet their standards.\n• Difficulty with emotion: They may see feelings as a sign of weakness.',
+                careers: 'Project Manager, General Manager, Financial Officer, Government Official.',
+                famous: 'John D. Rockefeller, Frank Sinatra, Martha Stewart, Hillary Clinton.',
+                compatibility: 'Best with INFP and ISFP. They value partners who can provide emotional depth and flexibility.',
+                dating: 'They are stable and committed. They value clarity and structure in relationships and expect their partners to be as dependable as they are.',
+                communication: 'Clear, authoritative, and fact-based. They value efficiency and expect others to be direct and organized.',
+                caution: 'Be organized and reliable. If you have a disagreement, present your case with logic rather than raw emotion.'
             },
             'ESFJ': {
                 name: 'Consul',
-                summary: 'Caring, social, and community-minded individuals who are always eager to help.',
-                strengths: '• Strong practical skills\n• Strong sense of duty\n• Very loyal and social\n• Good at connecting with others',
-                weaknesses: '• Worried about social status\n• Inflexible or traditional\n• Vulnerable to criticism\n• Too needy for approval',
-                careers: 'Healthcare Worker, Event Planner, Teacher, Special Education, HR Manager.'
+                summary: 'Caring, social, and community-minded individuals who are always eager to help. They are the social butterflies who thrive on harmony and ensuring that everyone around them feels included and valued.',
+                strengths: '• Strong practical skills: They excel at managing daily tasks and events.\n• Strong sense of duty: They feel a personal responsibility to help others.\n• Loyal: They are deeply committed to their social circles and family.\n• Good at connecting: They are naturally skilled at reading social cues.',
+                weaknesses: '• Worried about status: They can be overly concerned with how others see them.\n• Inflexible: They may struggle to accept non-traditional lifestyles.\n• Vulnerable to criticism: They take negative feedback very personally.\n• Too needy: They may require constant validation and approval.',
+                careers: 'Healthcare Worker, Event Planner, Teacher, Special Education, HR Manager.',
+                famous: 'Taylor Swift, Bill Clinton, Jennifer Garner, Steve Harvey.',
+                compatibility: 'Best with ISFP and INFP. They need partners who appreciate their social energy and return their warmth.',
+                dating: 'They are very traditional and supportive partners. They love social activities and strive for a harmonious and organized home life.',
+                communication: 'Warm, social, and inclusive. They are great at small talk and often use positive reinforcement to build relationships.',
+                caution: 'Show active appreciation for their efforts. Avoid being cold or dismissive of social norms they value.'
             },
             'ISTP': {
                 name: 'Virtuoso',
@@ -322,31 +342,51 @@ const translations = {
             },
             'ISTJ': {
                 name: '청렴결백한 논리주의자',
-                summary: '실용적이고 사실에 근거하며, 질서와 책임감을 중시하는 신뢰할 수 있는 개인입니다.',
-                strengths: '• 정직하고 직설적임\n• 의지가 강하고 의무감이 투철함\n• 책임감이 강하고 체계적임\n• 침착하고 실용적임',
-                weaknesses: '• 고집이 세고 융통성이 부족할 수 있음\n• 타인을 비판적으로 판단하는 경향\n• 종종 자신을 자책함\n• 감정 표현에 서툶',
-                careers: '회계사, 감사관, 경찰관, 군인, 사무 관리자'
+                summary: '실용적이고 사실에 근거하며, 질서와 책임감을 중시하는 신뢰할 수 있는 개인입니다. 어떤 조직에서든 중추적인 역할을 하며, 성실함과 정확성으로 시스템과 전통을 유지합니다.',
+                strengths: '• 정직과 직설적: 무엇보다 무결성을 중요시합니다.\n• 강한 의지: 장애물에 상관없이 자신의 의무를 다합니다.\n• 책임감: 매우 체계적이며 약속 시간을 철저히 지킵니다.\n• 침착하고 실용적: 스트레스 상황에서도 평정심을 유지합니다.',
+                weaknesses: '• 고집스러움: 전통에 도전하는 새로운 아이디어에 거부감을 느낄 수 있습니다.\n• 판단적: 규칙을 따르지 않는 사람들을 이해하기 힘들어합니다.\n• 자책: 자신의 통제 밖의 일까지 책임을 지려 할 때가 있습니다.\n• 무심함: 팩트에 집중하다 보니 상대의 감정적 필요를 간과할 수 있습니다.',
+                careers: '회계사, 감사관, 경찰관, 군인, 사무 관리자',
+                famous: '조지 워싱턴, 앙겔라 메르켈, 안소니 홉킨스, 나탈리 포트만',
+                compatibility: 'ESFP, ESTP와 잘 맞습니다. 활력을 불어넣어 주면서도 자신의 안정을 존중해주는 파트너를 선호합니다.',
+                dating: '진지하고 신뢰할 수 있는 연인입니다. 실질적인 행동을 통해 사랑을 표현하며 전통적인 관계 구조를 중시합니다.',
+                communication: '사실적이고 구조적이며 직설적입니다. 명확한 지침을 선호하며 모호함이나 과장을 싫어합니다.',
+                caution: '기대 사항을 명확하고 간결하게 전달하세요. 그들의 질서 정연한 생활 방식을 존중하고 갑작스러운 계획 변경은 피해야 합니다.'
             },
             'ISFJ': {
                 name: '용감한 수호자',
-                summary: '헌신적이고 따뜻하며, 사랑하는 사람들을 보호하고 지원할 준비가 된 개인입니다.',
-                strengths: '• 협조적이고 신뢰할 수 있음\n• 인내심이 강하고 관찰력이 좋음\n• 상상력이 풍부하고 열정적임\n• 충성스럽고 근면함',
-                weaknesses: '• 지나치게 겸손하여 본인의 공을 내세우지 않음\n• 상황을 개인적으로 받아들여 상처받기 쉬움\n• 감정을 억제하는 경향\n• 과도한 업무를 스스로 떠맡음',
-                careers: '간호사, 교사, 사회복지사, 고객 지원, 인테리어 디자이너'
+                summary: '헌신적이고 따뜻하며, 사랑하는 사람들을 보호하고 지원할 준비가 된 개인입니다. 보이지 않는 곳에서 모두를 돌보고 편안하게 만드는 조력자 역할을 수행합니다.',
+                strengths: '• 지지적: 누군가 도움이 필요할 때 항상 그 자리에 있습니다.\n• 인내심: 반복적이거나 힘든 업무를 묵묵히 처리하는 능력이 있습니다.\n• 충성심: 가족과 친구에 대한 헌신이 매우 강합니다.\n• 관찰력: 다른 사람들이 놓치기 쉬운 세부 사항을 잘 포착합니다.',
+                weaknesses: '• 지나친 겸손: 자신의 성취를 과소평가하는 경향이 있습니다.\n• 개인적으로 받아들임: 사소한 비판에도 깊은 상처를 입을 수 있습니다.\n• 감정 억제: 타인에게 짐이 되지 않으려 자신의 감정을 숨기곤 합니다.\n• 과부하: 사람들의 부탁을 거절하는 데 큰 어려움을 느낍니다.',
+                careers: '간호사, 교사, 사회복지사, 고객 지원, 인테리어 디자이너',
+                famous: '테레사 수녀, 비욘세, 아레사 프랭클린, 케이트 미들턴',
+                compatibility: 'ESFP, ESTP와 궁합이 좋습니다. 그들의 보살핌을 알아주고 안락한 지대를 벗어나게 도와줄 파트너가 필요합니다.',
+                dating: '매우 헌신적이고 따뜻한 연인입니다. 장기적인 안정을 중시하며 세심한 배려와 봉사를 통해 사랑을 확인합니다.',
+                communication: '부드럽고 친절하며 세부 사항에 집중합니다. 말하기보다 듣는 편이며 타인의 안녕에 초점을 맞춥니다.',
+                caution: '그들의 조용한 헌신을 당연하게 여기지 마세요. 진심 어린 감사를 표현하고 거칠거나 무례한 태도는 삼가야 합니다.'
             },
             'ESTJ': {
                 name: '엄격한 관리자',
-                summary: '사물과 사람을 관리하는 데 타의 추종을 불허하는 우수한 행정가입니다.',
-                strengths: '• 헌신적이고 의지가 강함\n• 직설적이고 정직함\n• 충성스럽고 신뢰할 수 있음\n• 뛰어난 조직 운영 능력',
-                weaknesses: '• 융통성이 부족하고 고집이 셈\n• 변화를 불편해함\n• 판단력이 앞서고 지시하려 함\n• 감정 표현에 어려움을 느낌',
-                careers: '프로젝트 매니저, 총무, 재무관, 공무원'
+                summary: '사물과 사람을 관리하는 데 타의 추종을 불허하는 우수한 행정가입니다. 전통, 질서, 명확한 규칙을 중시하며 공통의 목적을 위해 사람들을 결집시키는 역할을 합니다.',
+                strengths: '• 헌신적: 업무가 끝날 때까지 책임지고 완수합니다.\n• 직설적이고 정직: 자신의 입장을 명확히 밝히며 거짓이 없습니다.\n• 충성심: 믿음직한 파트너이자 친구가 되어줍니다.\n• 뛰어난 조직 운영: 자원과 인력을 관리하는 데 전문가입니다.',
+                weaknesses: '• 유연성 부족: 변화나 관습을 벗어난 아이디어를 수용하는 데 어려움을 겪습니다.\n• 새로움에 대한 불편함: 혁신보다는 검증된 방식(tried-and-true)을 선호합니다.\n• 판단적: 자신의 기준에 미치지 못하는 사람들에게 가혹할 수 있습니다.\n• 감정 다루기 미숙: 감정을 약함의 신호로 여기기도 합니다.',
+                careers: '프로젝트 매니저, 총무, 재무관, 공무원',
+                famous: '존 D. 록펠러, 프랭크 시나트라, 마사 스튜어트, 힐러리 클린턴',
+                compatibility: 'INFP, ISFP와 잘 맞습니다. 정서적인 깊이와 유연성을 제공할 수 있는 파트너를 선호합니다.',
+                dating: '안정적이고 헌신적입니다. 관계에서의 명확성과 구조를 중시하며 상대방도 자신처럼 성실하기를 기대합니다.',
+                communication: '명확하고 권위 있으며 사실에 근거합니다. 효율성을 중시하며 상대방도 직설적이고 체계적이길 바랍니다.',
+                caution: '체계적이고 믿음직한 모습을 보이세요. 이견이 있을 때는 감정에 호소하기보다 논리적으로 설명하는 것이 효과적입니다.'
             },
             'ESFJ': {
                 name: '사교적인 외교관',
-                summary: '타인을 돕는 데 열성적이며, 공동체 의식이 강하고 사교적인 개인입니다.',
-                strengths: '• 실용적인 능력이 뛰어남\n• 강한 의무감\n• 매우 충성스럽고 사교적임\n• 타인과 유대감을 형성하는 데 능숙함',
-                weaknesses: '• 사회적 지위에 민감함\n• 융통성이 부족하거나 전통에 집착함\n• 비판에 취약함\n• 타인의 인정을 지나치게 갈구함',
-                careers: '의료 종사자, 이벤트 플래너, 교사, 특수 교육, 인사 매니저'
+                summary: '타인을 돕는 데 열성적이며, 공동체 의식이 강하고 사교적인 개인입니다. 조화를 추구하며 주변 사람들이 존중받고 가치 있게 느껴지도록 만드는 분위기 메이커입니다.',
+                strengths: '• 강한 실용적 기술: 일상적인 과업이나 이벤트를 관리하는 데 탁월합니다.\n• 강한 의무감: 타인을 돕는 것을 개인적인 사명으로 느낍니다.\n• 충성심: 가족과 사회적 관계에 깊이 헌신합니다.\n• 사회적 교감: 사회적 신호를 읽고 유대감을 형성하는 데 능숙합니다.',
+                weaknesses: '• 지위에 대한 걱정: 타인의 시선을 지나치게 의식할 때가 있습니다.\n• 융통성 부족: 비전통적인 라이프스타일을 받아들이는 데 서툴 수 있습니다.\n• 비판에 취약: 부정적인 피드백을 매우 개인적인 공격으로 받아들입니다.\n• 과도한 인정 욕구: 끊임없는 확인과 승인을 필요로 할 수 있습니다.',
+                careers: '의료 종사자, 이벤트 플래너, 교사, 특수 교육, 인사 매니저',
+                famous: '테일러 스위프트, 빌 클린턴, 제니퍼 가너, 스티브 하비',
+                compatibility: 'ISFP, INFP와 궁합이 좋습니다. 자신의 사교적인 에너지를 이해하고 따뜻함을 돌려줄 파트너가 필요합니다.',
+                dating: '매우 전통적이고 지지적인 연인입니다. 사교적인 활동을 즐기며 화목하고 잘 정돈된 가정 생활을 위해 노력합니다.',
+                communication: '따뜻하고 사교적이며 포용적입니다. 잡담에 능하며 긍정적인 반응을 통해 관계를 돈독하게 만듭니다.',
+                caution: '그들의 노력에 대해 적극적으로 감사를 표현하세요. 그들이 중요하게 생각하는 사회적 관습을 무시하거나 냉담하게 대하지 마세요.'
             },
             'ISTP': {
                 name: '만능 재주꾼',
