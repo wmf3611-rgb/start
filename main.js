@@ -100,31 +100,51 @@ const translations = {
             },
             'INFJ': {
                 name: 'Advocate',
-                summary: 'Quiet, mystical, and inspiring idealists who are driven by a deep sense of purpose.',
-                strengths: '• Creative and insightful\n• Principled and passionate\n• Altruistic and empathetic\n• Decisive and organized',
-                weaknesses: '• Sensitive to criticism\n• Extremely private and guarded\n• Prone to burnout\n• Perfectionistic expectations',
-                careers: 'Counselor, Psychologist, Writer, Human Resources, Non-profit Leader.'
+                summary: 'Quiet, mystical, and inspiring idealists who are driven by a deep sense of purpose. They possess a unique ability to understand complex human emotions and are often dedicated to helping others realize their potential.',
+                strengths: '• Creative and insightful: They see patterns and meanings others miss.\n• Principled: They live by strong internal values.\n• Altruistic: Their focus is on making a positive impact.\n• Decisive: When they have a vision, they are determined to achieve it.',
+                weaknesses: '• Sensitive to criticism: They take negative feedback deeply to heart.\n• Extremely private: They are often difficult to get to know.\n• Prone to burnout: Their intense idealism can lead to exhaustion.\n• Perfectionistic: They set impossibly high standards for themselves and others.',
+                careers: 'Counselor, Psychologist, Writer, Human Resources, Non-profit Leader.',
+                famous: 'Martin Luther King Jr., Nelson Mandela, Lady Gaga, Nicole Kidman.',
+                compatibility: 'Best with ENFP and ENTP. They need partners who appreciate their depth and support their vision.',
+                dating: 'They look for "soulmates" and value deep, emotional connections. They are loyal and protective of their loved ones.',
+                communication: 'Empathetic, symbolic, and often quiet. They prefer one-on-one conversations that touch on meaningful topics.',
+                caution: 'Don\'t take their need for solitude personally. Be sincere and avoid superficiality or dishonesty.'
             },
             'INFP': {
                 name: 'Mediator',
-                summary: 'Poetic, kind, and altruistic individuals who are always eager to help a good cause.',
-                strengths: '• Empathetic and compassionate\n• Creative and imaginative\n• Idealistic and passionate\n• Open-minded and flexible',
-                weaknesses: '• Overly idealistic\n• Self-critical and private\n• Difficulty dealing with data\n• Take things too personally',
-                careers: 'Writer, Artist, Therapist, Librarian, Social Worker.'
+                summary: 'Poetic, kind, and altruistic individuals who are always eager to help a good cause. They are guided by their strong internal values and often spend their lives searching for meaning and harmony.',
+                strengths: '• Empathetic and compassionate: They feel the emotions of others deeply.\n• Creative and imaginative: They are often gifted in the arts or writing.\n• Idealistic: They believe in the inherent goodness of people.\n• Flexible: They are open-minded and adaptable to new situations.',
+                weaknesses: '• Overly idealistic: They can be disappointed by reality.\n• Self-critical: They are often their own harshest judges.\n• Difficulty with data: They may struggle with purely logical or objective tasks.\n• Take things personally: They can easily feel hurt by minor slights.',
+                careers: 'Writer, Artist, Therapist, Librarian, Social Worker.',
+                famous: 'William Shakespeare, J.R.R. Tolkien, Julia Roberts, Johnny Depp.',
+                compatibility: 'Best with ENFJ and ENTJ. They need partners who can help them organize their ideas into action.',
+                dating: 'They are romantic idealists who value authenticity. They may be shy initially but are deeply committed once they find the right person.',
+                communication: 'Gentle, expressive, and non-confrontational. They prefer using metaphors and discussing values over cold facts.',
+                caution: 'Avoid harsh criticism or forcing them to conform to strict social norms. Respect their need for personal values.'
             },
             'ENFJ': {
                 name: 'Protagonist',
-                summary: 'Charismatic, inspiring, and empathetic leaders who are passionate about helping others.',
-                strengths: '• Receptive and reliable\n• Passionate and altruistic\n• Natural leaders and charmers\n• Strong communication skills',
-                weaknesses: '• Overly idealistic or naive\n• Intense and smothering\n• Overly sensitive to criticism\n• Prone to self-sacrifice',
-                careers: 'Teacher, Sales Manager, Public Relations, Human Resources, Minister.'
+                summary: 'Charismatic, inspiring, and empathetic leaders who are passionate about helping others. They have a natural ability to connect with people and are often seen as the "heart" of any community they are part of.',
+                strengths: '• Receptive: They are excellent listeners and value others\' opinions.\n• Altruistic: Their primary motivation is to help others succeed.\n• Natural leaders: People are naturally drawn to their energy and warmth.\n• Strong communication: They are eloquent and persuasive speakers.',
+                weaknesses: '• Overly idealistic: They may struggle to see the harsh realities of people.\n• Intense: Their passion can sometimes be overwhelming for others.\n• Sensitive to criticism: They feel personal failure when they can\'t help someone.\n• Prone to self-sacrifice: They often ignore their own needs for others.',
+                careers: 'Teacher, Sales Manager, Public Relations, Human Resources, Minister.',
+                famous: 'Barack Obama, Oprah Winfrey, Maya Angelou, Malala Yousafzai.',
+                compatibility: 'Best with INFP and ISFP. They value partners who are appreciative of their support and share their values.',
+                dating: 'They are warm, supportive, and highly committed. They enjoy planning meaningful activities and strive for harmony in relationships.',
+                communication: 'Inspirational, warm, and highly persuasive. They are experts at reading a room and adjusting their tone to fit.',
+                caution: 'Don\'t take their helpfulness for granted. Be open about your feelings but avoid being overly pessimistic or cold.'
             },
             'ENFP': {
                 name: 'Campaigner',
-                summary: 'Enthusiastic, creative, and sociable free spirits who can always find a reason to smile.',
-                strengths: '• Curious and observant\n• Enthusiastic and energetic\n• Excellent communicators\n• Warm and friendly',
-                weaknesses: '• People-pleasing tendencies\n• Unfocused or disorganized\n• Overly optimistic\n• Restless and easily bored',
-                careers: 'Entertainer, Consultant, Psychologist, Creative Writer, PR Specialist.'
+                summary: 'Enthusiastic, creative, and sociable free spirits who can always find a reason to smile. They are driven by a sense of adventure and a deep curiosity about the world and the people in it.',
+                strengths: '• Curious: They are always looking for new possibilities and meanings.\n• Enthusiastic: Their energy is infectious and uplifting.\n• Excellent communicators: They are charming and can talk to anyone.\n• Warm and friendly: They genuinely care about connecting with others.',
+                weaknesses: '• People-pleasing: They may struggle to say "no" and overcommit.\n• Unfocused: Their love for new ideas can lead to a lack of follow-through.\n• Overly optimistic: They may ignore practical problems or red flags.\n• Restless: They get bored easily with routine or administrative tasks.',
+                careers: 'Entertainer, Consultant, Psychologist, Creative Writer, PR Specialist.',
+                famous: 'Robert Downey Jr., Robin Williams, Quentin Tarantino, Ellen DeGeneres.',
+                compatibility: 'Best with INFJ and INTJ. They need partners who can help them ground their energy and focus.',
+                dating: 'Exciting, playful, and deeply emotional. They value shared experiences and want a partner who can join them on their adventures.',
+                communication: 'Animated, passionate, and non-linear. They jump between ideas quickly and love discussing "what if" scenarios.',
+                caution: 'Don\'t box them in with too many rules or routine. Show appreciation for their creativity and spontaneous nature.'
             },
             'ISTJ': {
                 name: 'Logistician',
@@ -254,31 +274,51 @@ const translations = {
             },
             'INFJ': {
                 name: '선의의 옹호자',
-                summary: '조용하고 신비로우며, 깊은 사명감을 바탕으로 움직이는 이상주의자입니다.',
-                strengths: '• 창의적이고 통찰력이 뛰어남\n• 원칙이 뚜렷하고 열정적임\n• 이타적이고 공감 능력이 좋음\n• 결단력 있고 체계적임',
-                weaknesses: '• 비판에 민감함\n• 매우 사적인 성향으로 속마음을 잘 드러내지 않음\n• 번아웃에 취약함\n• 지나치게 완벽주의적인 기대치',
-                careers: '상담사, 심리학자, 작가, 인사 담당자, 비영리 단체 리더'
+                summary: '조용하고 신비로우며, 깊은 사명감을 바탕으로 움직이는 이상주의자입니다. 복잡한 인간 감정을 이해하는 독특한 능력을 갖추고 있으며, 타인이 잠재력을 실현할 수 있도록 돕는 데 헌신적입니다.',
+                strengths: '• 창의적이고 통찰력: 남들이 놓치는 패턴과 의미를 발견합니다.\n• 원칙 중심: 확고한 내면의 가치관에 따라 살아갑니다.\n• 이타적: 긍정적인 변화를 만드는 데 집중합니다.\n• 결단력: 비전이 정해지면 이를 달성하기 위해 끈기 있게 노력합니다.',
+                weaknesses: '• 비판에 민감: 부정적인 피드백을 매우 개인적이고 깊게 받아들입니다.\n• 매우 폐쇄적: 진정으로 알기까지 오랜 시간이 걸리는 유형입니다.\n• 번아웃 취약: 강렬한 이상주의로 인해 정서적 고갈을 겪기 쉽습니다.\n• 완벽주의: 자신과 타인에게 불가능할 정도로 높은 기준을 제시합니다.',
+                careers: '상담사, 심리학자, 작가, 인사 담당자, 비영리 단체 리더',
+                famous: '마틴 루터 킹, 넬슨 만델라, 레이디 가가, 니콜 키드먼',
+                compatibility: 'ENFP, ENTP와 잘 맞습니다. 자신의 깊이를 이해해주고 비전을 지지해주는 파트너를 원합니다.',
+                dating: '영혼의 단짝을 찾으며 깊고 정서적인 연결을 중시합니다. 사랑하는 사람에게는 매우 헌신적이고 보호적입니다.',
+                communication: '공감적이고 상징적이며 조용한 편입니다. 의미 있는 주제를 다루는 1:1 대화를 선호합니다.',
+                caution: '혼자만의 시간이 필요한 그들의 특성을 개인적으로 받아들이지 마세요. 가식이나 거짓말은 피하고 진심으로 대해야 합니다.'
             },
             'INFP': {
                 name: '열정적인 중재자',
-                summary: '시적이고 친절하며, 선한 일을 위해 항상 도울 준비가 된 이타적인 개인입니다.',
-                strengths: '• 공감 능력이 뛰어나고 따뜻함\n• 창의적이고 상상력이 풍부함\n• 이상주의적이고 열정적임\n• 개방적이고 유연한 사고',
-                weaknesses: '• 지나치게 이상주의적일 수 있음\n• 자기비판적이고 내성적임\n• 데이터나 수치 처리에 어려움을 느낌\n• 상황을 지나치게 개인적으로 받아들임',
-                careers: '작가, 예술가, 치료사, 사서, 사회복지사'
+                summary: '시적이고 친절하며, 선한 일을 위해 항상 도울 준비가 된 이타적인 개인입니다. 강한 내면의 가치에 따라 움직이며 인생의 의미와 조화를 찾는 데 일생을 바치기도 합니다.',
+                strengths: '• 공감과 동정심: 타인의 감정을 자신의 것처럼 깊게 느낍니다.\n• 창의적이고 상상력 풍부: 예술이나 글쓰기에 탁월한 재능을 보입니다.\n• 이상주의: 사람들의 내면에는 기본적으로 선함이 있다고 믿습니다.\n• 유연성: 개방적이며 새로운 상황에 잘 적응합니다.',
+                weaknesses: '• 지나친 이상주의: 현실의 가혹함에 쉽게 상처받거나 실망합니다.\n• 자기비판적: 자신에게 가장 엄격한 잣대를 들이대곤 합니다.\n• 데이터 처리 미숙: 순수하게 논리적이거나 객관적인 작업에 어려움을 느낍니다.\n• 개인적으로 받아들임: 작은 무심함에도 깊은 상처를 받을 수 있습니다.',
+                careers: '작가, 예술가, 치료사, 사서, 사회복지사',
+                famous: '윌리엄 셰익스피어, J.R.R. 톨킨, 줄리아 로버츠, 조니 뎁',
+                compatibility: 'ENFJ, ENTJ와 궁합이 좋습니다. 자신의 아이디어를 현실적인 실행으로 옮겨줄 수 있는 파트너가 필요합니다.',
+                dating: '진정성을 중요시하는 낭만주의자입니다. 처음에는 수줍어 보일 수 있지만, 믿음이 생기면 깊은 사랑을 쏟습니다.',
+                communication: '부드럽고 표현력이 풍부하며 갈등을 피합니다. 팩트보다는 비유와 가치 중심의 대화를 선호합니다.',
+                caution: '가혹한 비판이나 엄격한 사회적 규범을 강요하지 마세요. 그들의 개인적인 가치관을 존중해주는 것이 필수적입니다.'
             },
             'ENFJ': {
                 name: '정의로운 사회운동가',
-                summary: '카리스마 있고 영감을 주며, 타인을 돕는 일에 열정적인 공감 능력이 뛰어난 리더입니다.',
-                strengths: '• 수용적이고 신뢰할 수 있음\n• 열정적이고 이타적임\n• 타고난 리더십과 매력\n• 뛰어난 의사소통 능력',
-                weaknesses: '• 지나치게 이상주의적이거나 순진할 수 있음\n• 과하게 열정적이어서 상대가 부담을 느낄 수 있음\n• 비판에 지나치게 민감함\n• 자기희생이 지나칠 수 있음',
-                careers: '교사, 영업 관리자, 홍보 전문가, 인사 담당자, 종교인'
+                summary: '카리스마 있고 영감을 주며, 타인을 돕는 일에 열정적인 공감 능력이 뛰어난 리더입니다. 사람들과 연결되는 타고난 능력이 있으며 집단 내에서 "심장"과 같은 역할을 수행합니다.',
+                strengths: '• 수용적: 경청의 달인이며 타인의 의견을 소중히 여깁니다.\n• 이타적: 타인의 성공을 돕는 것을 가장 큰 보람으로 느낍니다.\n• 타고난 리더: 사람들은 그들의 따뜻함과 에너지에 자연스럽게 이끌립니다.\n• 뛰어난 소통: 설득력 있고 유려한 화술을 구사합니다.',
+                weaknesses: '• 과도한 이상주의: 사람들의 냉혹한 현실을 직시하는 데 어려움을 겪습니다.\n• 강렬함: 그들의 넘치는 열정이 때로는 상대에게 부담을 줄 수 있습니다.\n• 비판에 민감: 누군가를 돕지 못했을 때 심한 자책감을 느낍니다.\n• 자기희생적: 타인을 위해 정작 자신의 필요를 무시하곤 합니다.',
+                careers: '교사, 영업 관리자, 홍보 전문가, 인사 담당자, 종교인',
+                famous: '버락 오바마, 오프라 윈프리, 마야 안젤루, 말랄라 유사프자이',
+                compatibility: 'INFP, ISFP와 좋은 관계를 맺습니다. 자신의 지지를 고마워하고 가치관을 공유하는 상대를 선호합니다.',
+                dating: '따뜻하고 지지적이며 헌신적인 연인입니다. 의미 있는 활동을 함께 계획하는 것을 좋아하며 관계의 화합을 위해 노력합니다.',
+                communication: '영감을 주고 따뜻하며 설득력이 강합니다. 분위기를 읽고 상황에 맞춰 화법을 조절하는 데 능숙합니다.',
+                caution: '그들의 친절을 당연하게 여기지 마세요. 자신의 감정을 솔직하게 표현하되, 너무 비관적이거나 냉담한 태도는 주의해야 합니다.'
             },
             'ENFP': {
                 name: '재기발랄한 활동가',
-                summary: '열정적이고 창의적이며, 사교적인 자유로운 영혼으로 언제나 미소 지을 이유를 찾아냅니다.',
-                strengths: '• 호기심이 많고 관찰력이 뛰어남\n• 열정적이고 에너지가 넘침\n• 뛰어난 의사소통 능력\n• 따뜻하고 친근한 성격',
-                weaknesses: '• 사람들의 기분을 지나치게 맞추려 함\n• 집중력이 부족하거나 무질서할 수 있음\n• 지나치게 낙관적일 수 있음\n• 쉽게 지루함을 느끼고 안절부절못함',
-                careers: '연예인, 컨설턴트, 심리학자, 작가, 홍보 전문가'
+                summary: '열정적이고 창의적이며, 사교적인 자유로운 영혼으로 언제나 미소 지을 이유를 찾아냅니다. 모험심과 세상 및 사람들에 대한 깊은 호기심을 바탕으로 행동합니다.',
+                strengths: '• 호기심: 항상 새로운 가능성과 의미를 찾아다닙니다.\n• 열정적: 그들의 에너지는 주변 사람들까지 기분 좋게 만듭니다.\n• 뛰어난 소통: 매력적이며 누구와도 대화를 잘 이끌어 나갑니다.\n• 따뜻하고 친근함: 진심으로 사람들과 교감하고 싶어 합니다.',
+                weaknesses: '• 거절을 못 함: 타인의 기분을 맞추려다 과도한 약속을 하곤 합니다.\n• 집중력 부족: 새로운 아이디어는 좋아하지만 마무리가 약할 수 있습니다.\n• 지나친 낙관: 실질적인 문제나 위험 신호를 간과할 때가 있습니다.\n• 안절부절못함: 반복적인 일상이나 행정적인 업무를 매우 견디기 힘들어합니다.',
+                careers: '연예인, 컨설턴트, 심리학자, 작가, 홍보 전문가',
+                famous: '로버트 다우니 주니어, 로빈 윌리엄스, 쿠엔틴 타란티노, 엘런 디제너러스',
+                compatibility: 'INFJ, INTJ와 잘 맞습니다. 자신의 에너지를 집중시키고 중심을 잡아줄 수 있는 파트너가 필요합니다.',
+                dating: '흥미진진하고 장난기 넘치며 감정적입니다. 공유하는 경험을 중요하게 생각하며 모험을 함께할 상대를 원합니다.',
+                communication: '활기차고 열정적이며 비선형적입니다. 아이디어가 빠르게 도약하며 "만약에"와 같은 가상 시나리오를 즐깁니다.',
+                caution: '너무 많은 규칙이나 일상적인 틀에 가두려 하지 마세요. 그들의 창의성과 즉흥적인 면모를 인정해주는 것이 중요합니다.'
             },
             'ISTJ': {
                 name: '청렴결백한 논리주의자',
