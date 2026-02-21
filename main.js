@@ -196,31 +196,51 @@ const translations = {
             },
             'ISTP': {
                 name: 'Virtuoso',
-                summary: 'Bold, practical, and experimental masters of all kinds of tools.',
-                strengths: '• Optimistic and energetic\n• Creative and practical\n• Spontaneous and rational\n• Great in a crisis',
-                weaknesses: '• Stubborn and insensitive\n• Private and reserved\n• Easily bored and risk-prone\n• Dislike commitment',
-                careers: 'Engineer, Mechanic, Pilot, Forensic Scientist, Data Analyst.'
+                summary: 'Bold, practical, and experimental masters of all kinds of tools. They enjoy exploring the world through their hands and eyes, often taking things apart just to see how they work.',
+                strengths: '• Optimistic and energetic: They approach life with a sense of adventure.\n• Creative and practical: They are experts at finding hands-on solutions.\n• Spontaneous and rational: They are adaptable but rely on logic.\n• Great in a crisis: They stay calm and focused when things go wrong.',
+                weaknesses: '• Stubborn: They may resist rules or structures that feel restrictive.\n• Insensitive: They may prioritize logic over others\' emotional needs.\n• Private: They can be difficult to get to know deeply.\n• Risk-prone: Their love for novelty can lead to dangerous situations.',
+                careers: 'Engineer, Mechanic, Pilot, Forensic Scientist, Data Analyst.',
+                famous: 'Bear Grylls, Michael Jordan, Tom Cruise, Mulan (Fictional).',
+                compatibility: 'Best with ESFJ and ESTJ. They value partners who are practical and respect their need for independence.',
+                dating: 'They value their freedom and need partners who are equally independent. They show love through shared activities and practical help.',
+                communication: 'Concise, objective, and action-oriented. They prefer discussing "how" something works rather than "why" in a philosophical sense.',
+                caution: 'Don\'t try to control or micro-manage them. Give them physical space and respect their need for hands-on exploration.'
             },
             'ISFP': {
                 name: 'Adventurer',
-                summary: 'Flexible, charming, and artistic individuals who are always ready to explore something new.',
-                strengths: '• Charming and sensitive\n• Imaginative and curious\n• Passionate and artistic\n• Flexible and original',
-                weaknesses: '• Fiercely independent\n• Unpredictable and stressed\n• Overly competitive\n• Fluctuating self-esteem',
-                careers: 'Artist, Musician, Chef, Veterinarian, Designer.'
+                summary: 'Flexible, charming, and artistic individuals who are always ready to explore something new. They live in a world of sensory possibilities and often express themselves through their personal aesthetic and actions.',
+                strengths: '• Charming: Their relaxed and friendly nature makes them easy to be around.\n• Sensitive: They are deeply in tune with their own and others\' emotions.\n• Artistic: They have a strong sense of beauty and aesthetics.\n• Flexible: They are open to new experiences and change.',
+                weaknesses: '• Fiercely independent: They may resist any attempts to be "boxed in."\n• Unpredictable: Their focus on the present can lead to sudden changes in direction.\n• Stressed easily: They may struggle with high-pressure environments.\n• Competitive: Their desire for originality can sometimes lead to unhealthy rivalry.',
+                careers: 'Artist, Musician, Chef, Veterinarian, Designer.',
+                famous: 'Lana Del Rey, Jungkook (BTS), Rihanna, David Bowie.',
+                compatibility: 'Best with ENFJ and ESFJ. They need partners who appreciate their artistry and provide emotional warmth.',
+                dating: 'They are romantic and loyal but need space to be themselves. They value sensory experiences like good food, music, and travel in a relationship.',
+                communication: 'Quiet, observant, and non-judgmental. They prefer expressing themselves through actions or artistic mediums rather than long speeches.',
+                caution: 'Avoid being overly critical or pushy. Respect their need for creative freedom and personal space.'
             },
             'ESTP': {
                 name: 'Entrepreneur',
-                summary: 'Smart, energetic, and very perceptive people who truly enjoy living on the edge.',
-                strengths: '• Bold and direct\n• Rational and practical\n• Perceptive and sociable\n• Original and energetic',
-                weaknesses: '• Insensitive to feelings\n• Impatient and risk-prone\n• May miss the "big picture"\n• Defiant of structure',
-                careers: 'Salesperson, Stockbroker, Entrepreneur, Athlete, Firefighter.'
+                summary: 'Smart, energetic, and very perceptive people who truly enjoy living on the edge. They are action-oriented and often prefer to "leap before they look," trusting their ability to handle whatever comes their way.',
+                strengths: '• Bold: They are not afraid to take risks and try new things.\n• Rational and practical: They focus on what works in the moment.\n• Perceptive: They notice small changes in their environment immediately.\n• Sociable: They are natural entertainers and love being the center of attention.',
+                weaknesses: '• Insensitive: Their focus on action can lead to ignoring others\' feelings.\n• Impatient: They hate waiting and may rush into situations prematurely.\n• Risk-prone: Their desire for excitement can lead to reckless behavior.\n• Defiant: They may disregard rules that they see as obstacles to action.',
+                careers: 'Salesperson, Stockbroker, Entrepreneur, Athlete, Firefighter.',
+                famous: 'Donald Trump, Madonna, Bruce Willis, Samuel L. Jackson.',
+                compatibility: 'Best with ISFJ and ISTJ. They value partners who are reliable but can also keep up with their fast-paced life.',
+                dating: 'Exciting, adventurous, and direct. They value physical connection and shared activities and look for partners who are as energetic as they are.',
+                communication: 'Energetic, direct, and focused on the "here and now." They are great at storytelling and using humor to engage others.',
+                caution: 'Don\'t try to tie them down with too much planning. Be direct and keep up with their high energy levels.'
             },
             'ESFP': {
                 name: 'Entertainer',
-                summary: 'Spontaneous, energetic, and enthusiastic people who make life around them more fun.',
-                strengths: '• Bold and original\n• Excellent people skills\n• Aesthetic and practical\n• Observant and fun',
-                weaknesses: '• Sensitive to criticism\n• Easily bored\n• Poor long-term planners\n• Conflict-averse',
-                careers: 'Actor, Event Coordinator, Tour Guide, Fashion Designer, Public Relations.'
+                summary: 'Spontaneous, energetic, and enthusiastic people who make life around them more fun. They love being the center of attention and are experts at finding joy in the present moment.',
+                strengths: '• Bold: They love trying new things and being the first to experience them.\n• Excellent people skills: They are naturally warm and engaging.\n• Aesthetic: They have a strong sense of style and enjoy the finer things in life.\n• Observant: They are highly aware of others\' needs and emotions.',
+                weaknesses: '• Sensitive to criticism: They take negative feedback very personally.\n• Easily bored: They struggle with routine and long-term planning.\n• Poor planners: Their focus on the "now" can lead to neglecting future responsibilities.\n• Conflict-averse: They may avoid necessary but difficult conversations.',
+                careers: 'Actor, Event Coordinator, Tour Guide, Fashion Designer, Public Relations.',
+                famous: 'Marilyn Monroe, Adele, Justin Bieber, Miley Cyrus.',
+                compatibility: 'Best with ISFJ and ISTJ. They need partners who can provide stability and support their social energy.',
+                dating: 'Playful, affectionate, and fun-loving. They value variety and excitement in relationships and love surprising their partners with gifts or outings.',
+                communication: 'Friendly, animated, and story-driven. They love sharing their experiences and use a lot of sensory details in their speech.',
+                caution: 'Show enthusiasm for their ideas and social energy. Avoid being overly critical or focusing too much on long-term, abstract plans.'
             }
         }
     },
