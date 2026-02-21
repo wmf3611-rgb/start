@@ -1,12 +1,14 @@
+const htmlElement = document.documentElement;
 const themeBtn = document.getElementById('theme-btn');
 const langBtn = document.getElementById('lang-btn');
-const htmlElement = document.documentElement;
 const mbtiGrid = document.getElementById('mbti-grid');
 const mbtiDetails = document.getElementById('mbti-details');
 const mbtiTitle = document.getElementById('mbti-title');
 const mbtiDesc = document.getElementById('mbti-desc');
 const mainTitle = document.getElementById('main-title');
 const mainSubtitle = document.getElementById('main-subtitle');
+const aboutTitle = document.getElementById('about-title');
+const aboutContent = document.getElementById('about-content');
 
 const icons = {
     'INTJ': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>',
@@ -34,6 +36,8 @@ const translations = {
         themeLight: 'Light Mode',
         themeDark: 'Dark Mode',
         langBtn: '한국어',
+        aboutTitle: 'What is MBTI?',
+        aboutContent: 'The Myers-Briggs Type Indicator (MBTI) is an introspective self-report questionnaire indicating differing psychological preferences in how people perceive the world and make decisions. Understanding your type can help you in various aspects of life, including career choice and relationships.',
         headers: {
             summary: 'Summary',
             strengths: 'Strengths',
@@ -161,6 +165,8 @@ const translations = {
         themeLight: '라이트 모드',
         themeDark: '다크 모드',
         langBtn: 'English',
+        aboutTitle: 'MBTI란 무엇인가요?',
+        aboutContent: '마이어스-브릭스 유형 지표(MBTI)는 사람들이 세상을 어떻게 인식하고 결정을 내리는지에 대한 심리적 선호도를 나타내는 자기 보고식 설문 조사입니다. 자신의 유형을 이해하면 직업 선택과 인간관계를 포함한 삶의 다양한 측면에서 큰 도움이 될 수 있습니다.',
         headers: {
             summary: '개요',
             strengths: '강점',
@@ -292,6 +298,8 @@ function updateUI() {
     mainTitle.textContent = t.title;
     mainSubtitle.textContent = t.subtitle;
     langBtn.textContent = t.langBtn;
+    aboutTitle.textContent = t.aboutTitle;
+    aboutContent.textContent = t.aboutContent;
     
     if (htmlElement.getAttribute('data-theme') === 'dark') {
         themeBtn.textContent = t.themeLight;

@@ -3,26 +3,63 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MBTI Characteristics</title>
+    <title>MBTI Insight - Deep Dive into Personality Types</title>
+    <meta name="description" content="Explore detailed MBTI personality type characteristics, strengths, weaknesses, and career paths. Get deep insights into all 16 MBTI types.">
+    <meta name="keywords" content="MBTI, personality types, 16 personalities, psychology, self-discovery, career paths">
     <meta name="google-adsense-account" content="ca-pub-7889787797247875">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7889787797247875"
      crossorigin="anonymous"></script>
     <link href='./style.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="controls">
-        <button id="lang-btn">한국어</button>
-        <button id="theme-btn">Dark Mode</button>
-    </div>
-    <div class="container">
-        <h1 id="main-title">MBTI Characteristics</h1>
-        <p id="main-subtitle">Select an MBTI type to see its characteristics.</p>
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">MBTI Insight</div>
+            <nav class="nav-links">
+                <a href="#" id="nav-home">Home</a>
+                <a href="#mbti-grid">Personalities</a>
+                <a href="#about-section">About</a>
+            </nav>
+            <div class="controls">
+                <button id="lang-btn">한국어</button>
+                <button id="theme-btn">Dark Mode</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1 id="main-title">MBTI Characteristics</h1>
+            <p id="main-subtitle">Select an MBTI type to see its characteristics.</p>
+        </section>
+        
         <div id="mbti-grid" class="mbti-grid"></div>
+        
         <div id="mbti-details" class="mbti-details">
             <h2 id="mbti-title"></h2>
-            <p id="mbti-desc"></p>
+            <div id="mbti-desc"></div>
         </div>
-    </div>
+
+        <section id="about-section" class="info-section">
+            <h2 id="about-title">What is MBTI?</h2>
+            <p id="about-content">
+                The Myers-Briggs Type Indicator (MBTI) is an introspective self-report questionnaire indicating differing psychological preferences in how people perceive the world and make decisions. Understanding your type can help you in various aspects of life, including career choice and relationships.
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2026 MBTI Insight. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+
     <script defer type="text/javascript" src="./main.js"></script>
 </body>
 </html>
