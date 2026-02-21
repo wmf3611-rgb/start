@@ -42,36 +42,61 @@ const translations = {
             summary: 'Summary',
             strengths: 'Strengths',
             weaknesses: 'Weaknesses',
-            careers: 'Best Careers'
+            careers: 'Best Careers',
+            famous: 'Famous Figures',
+            compatibility: 'Compatibility',
+            dating: 'Dating Style',
+            communication: 'Communication Style',
+            caution: 'Things to Watch Out For'
         },
         data: {
             'INTJ': {
                 name: 'Architect',
-                summary: 'Strategic, logical, and highly organized thinkers who enjoy planning and problem-solving.',
-                strengths: '• Rational and evidence-based\n• Independent and decisive\n• Determined and hardworking\n• Innovative and open-minded',
-                weaknesses: '• Can be arrogant or overly critical\n• Dismissive of emotions\n• Socially oblivious at times\n• Prone to "over-analyzing"',
-                careers: 'Software Architect, Systems Analyst, Strategic Planner, Scientist, Project Manager.'
+                summary: 'Strategic, logical, and highly organized thinkers who enjoy planning and problem-solving. They possess a thirst for knowledge and a desire for efficiency, often seeing the world as a giant chess match where every move counts.',
+                strengths: '• Rational and evidence-based: They rely on logic rather than emotion.\n• Independent and decisive: They trust their own judgment and take action.\n• Determined and hardworking: When they have a goal, they are relentless.\n• Innovative and open-minded: They look for new ways to improve systems.',
+                weaknesses: '• Can be arrogant or overly critical: Their high standards apply to everyone.\n• Dismissive of emotions: They may struggle to validate others\' feelings.\n• Socially oblivious: Small talk and social niceties often feel like a waste of time.\n• Over-analyzing: They can get stuck in "analysis paralysis."',
+                careers: 'Software Architect, Systems Analyst, Strategic Planner, Scientist, Project Manager.',
+                famous: 'Elon Musk, Nikola Tesla, Michelle Obama, Christopher Nolan.',
+                compatibility: 'Best with ENFP and ENTP. They value intellectual depth and growth in partners.',
+                dating: 'They approach dating logically. They prefer long-term stability over short-term flings and appreciate partners who respect their independence.',
+                communication: 'Direct, concise, and focused on facts. They dislike redundant explanations and emotional outbursts during debates.',
+                caution: 'Avoid being overly emotional or illogical when discussing problems. Give them space to process information alone.'
             },
             'INTP': {
                 name: 'Logician',
-                summary: 'Innovative, curious, and analytical thinkers who love exploring new ideas and theories.',
-                strengths: '• Great at objective analysis\n• Creative and original\n• Open-minded and curious\n• Enthusiastic about new ideas',
-                weaknesses: '• Can be disconnected or absent-minded\n• Impatient with routine or small talk\n• Self-doubting regarding execution\n• Can be insensitive to others',
-                careers: 'Philosopher, Programmer, Researcher, Mathematician, College Professor.'
+                summary: 'Innovative, curious, and analytical thinkers who love exploring new ideas and theories. They are often lost in thought, constantly analyzing everything around them to understand the underlying principles.',
+                strengths: '• Objective analysis: They see things as they are, without bias.\n• Creative and original: They offer unique perspectives on complex problems.\n• Open-minded: They are always willing to reconsider their positions.\n• Enthusiastic: When a topic interests them, their energy is contagious.',
+                weaknesses: '• Disconnected: They can become so absorbed in thought they ignore the real world.\n• Impatient with routine: Repetitive tasks are their biggest enemy.\n• Self-doubting: Their constant analysis can lead to hesitation in execution.\n• Insensitive: Their focus on truth can sometimes come across as cold.',
+                careers: 'Philosopher, Programmer, Researcher, Mathematician, College Professor.',
+                famous: 'Albert Einstein, Bill Gates, Isaac Newton, Elliot Page.',
+                compatibility: 'Best with ENTJ and ESTJ. They need partners who can help ground their theoretical ideas into reality.',
+                dating: 'Casual and low-pressure. They value intellectual connection and honesty. They may struggle with traditional romantic gestures.',
+                communication: 'Complex and theoretical. They often use analogies and may skip over basic details assuming others follow their logic.',
+                caution: 'Don\'t force them into strict schedules or small talk. Respect their need for intellectual autonomy.'
             },
             'ENTJ': {
                 name: 'Commander',
-                summary: 'Bold, strong-willed, and natural leaders who excel at organizing people and resources.',
-                strengths: '• Efficient and productive\n• Self-confident and strong-willed\n• Strategic thinkers\n• Charismatic and inspiring',
-                weaknesses: '• Stubborn and dominant\n• Intolerant of inefficiency\n• Arrogant or cold-hearted\n• Poor at handling emotions',
-                careers: 'Business Executive, Lawyer, Entrepreneur, Judge, Management Consultant.'
+                summary: 'Bold, strong-willed, and natural leaders who excel at organizing people and resources. They are decisive and value efficiency above all else, often taking charge to ensure goals are met quickly and effectively.',
+                strengths: '• Efficient: They maximize productivity in any environment.\n• Self-confident: They trust their abilities to lead and succeed.\n• Strategic thinkers: They see the big picture and plan long-term.\n• Charismatic: They inspire others to follow their vision.',
+                weaknesses: '• Stubborn and dominant: They can be inflexible once they\'ve made a decision.\n• Intolerant: They have little patience for inefficiency or incompetence.\n• Arrogant: Their confidence can sometimes cross into hubris.\n• Cold-hearted: They may prioritize results over people\'s feelings.',
+                careers: 'Business Executive, Lawyer, Entrepreneur, Judge, Management Consultant.',
+                famous: 'Steve Jobs, Gordon Ramsay, Margaret Thatcher, Franklin D. Roosevelt.',
+                compatibility: 'Best with INFP and INTP. They value partners who can challenge them intellectually but also offer emotional depth.',
+                dating: 'They are intentional and direct in relationships. They look for high-achieving partners and value honesty and clear communication.',
+                communication: 'Commanding, clear, and task-oriented. They expect others to be as direct as they are and appreciate well-reasoned arguments.',
+                caution: 'Don\'t take their directness personally. Be prepared with facts and logic when challenging their ideas.'
             },
             'ENTP': {
                 name: 'Debater',
-                summary: 'Smart, curious, and enthusiastic thinkers who enjoy challenging conventional wisdom.',
-                strengths: '• Knowledgeable and quick-witted\n• Excellent brainstormers\n• Charismatic and energetic\n• Adaptable and versatile',
-                weaknesses: '• Argumentative for the sake of it\n• Insensitive to others\' feelings\n• Difficulty focusing on details\n• Dislike practical implementation',
-                careers: 'Lawyer, Journalist, Creative Director, Marketing Specialist, Political Consultant.'
+                summary: 'Smart, curious, and enthusiastic thinkers who enjoy challenging conventional wisdom. They thrive on intellectual stimulation and love playing devil\'s advocate to explore every angle of an idea.',
+                strengths: '• Knowledgeable: They have a broad range of interests and insights.\n• Quick-witted: They excel at thinking on their feet.\n• Charismatic: Their energy and humor make them engaging.\n• Adaptable: They can pivot easily when presented with new information.',
+                weaknesses: '• Argumentative: They may argue just for the sake of it, exhausting others.\n• Insensitive: They can overlook the emotional impact of their words.\n• Unfocused: They love starting new projects but may struggle to finish them.\n• Dislike implementation: They prefer brainstorming over boring execution.',
+                careers: 'Lawyer, Journalist, Creative Director, Marketing Specialist, Political Consultant.',
+                famous: 'Robert Downey Jr., Mark Twain, Tom Hanks, Thomas Edison.',
+                compatibility: 'Best with INFJ and INTJ. They need partners who can handle their energy and keep them grounded.',
+                dating: 'Exciting and unpredictable. They value growth and novelty in relationships and need a partner who can keep up with their fast-paced mind.',
+                communication: 'Witty, provocative, and highly verbal. They enjoy debating and may jump from one topic to another rapidly.',
+                caution: 'Understand that their debating is an intellectual exercise, not a personal attack. Encourage them to follow through on their best ideas.'
             },
             'INFJ': {
                 name: 'Advocate',
@@ -171,36 +196,61 @@ const translations = {
             summary: '개요',
             strengths: '강점',
             weaknesses: '약점',
-            careers: '추천 직업'
+            careers: '추천 직업',
+            famous: '유명 인사',
+            compatibility: '궁합',
+            dating: '연애 스타일',
+            communication: '대화 스타일',
+            caution: '주의할 점'
         },
         data: {
             'INTJ': {
                 name: '용의주도한 전략가',
-                summary: '전략적이며 논리적이고, 계획 세우기와 문제 해결을 즐기는 체계적인 사고가입니다.',
-                strengths: '• 이성적이고 근거 중심적임\n• 독립적이고 결단력이 강함\n• 목표 지향적이며 근면함\n• 혁신적이고 개방적인 사고',
-                weaknesses: '• 거만하거나 지나치게 비판적일 수 있음\n• 감정을 무시하는 경향\n• 때때로 사회적 눈치가 부족함\n• 과도한 분석에 빠지기 쉬움',
-                careers: '소프트웨어 아키텍트, 시스템 분석가, 전략 기획가, 과학자, 프로젝트 매니저'
+                summary: '전략적이며 논리적이고, 계획 세우기와 문제 해결을 즐기는 체계적인 사고가입니다. 지식에 대한 갈망이 크고 효율성을 중시하며, 세상을 거대한 체스판처럼 바라보는 경향이 있습니다.',
+                strengths: '• 이성적이고 근거 중심적: 감정보다 논리에 의존합니다.\n• 독립적이고 결단력: 자신의 판단을 믿고 과감하게 행동합니다.\n• 목표 지향적이며 근면: 한번 정한 목표는 끝까지 완수합니다.\n• 혁신적이고 개방적: 시스템을 개선할 새로운 방법을 항상 찾습니다.',
+                weaknesses: '• 거만하거나 비판적: 높은 기준을 타인에게도 엄격하게 적용합니다.\n• 감정을 무시: 타인의 감정적 필요를 공감하는 데 어려움을 겪습니다.\n• 사회적 눈치 부족: 잡담이나 사교적인 관례를 시간 낭비로 여깁니다.\n• 과도한 분석: 생각이 너무 많아 실행이 늦어질 때가 있습니다.',
+                careers: '소프트웨어 아키텍트, 시스템 분석가, 전략 기획가, 과학자, 프로젝트 매니저',
+                famous: '일론 머스크, 니콜라 테슬라, 미셸 오바마, 크리스토퍼 놀란',
+                compatibility: 'ENFP, ENTP와 가장 잘 맞습니다. 지적인 깊이와 성장을 공유할 수 있는 상대를 선호합니다.',
+                dating: '연애도 논리적으로 접근합니다. 가벼운 만남보다 장기적인 안정성을 추구하며, 자신의 독립성을 존중해주는 파트너를 원합니다.',
+                communication: '직설적이고 간결하며 팩트 중심입니다. 중언부언하거나 토론 중 감정적으로 대응하는 것을 싫어합니다.',
+                caution: '문제를 논의할 때 지나치게 감정적이거나 비논리적인 태도는 피하세요. 혼자 정보를 처리할 시간을 주는 것이 중요합니다.'
             },
             'INTP': {
                 name: '논리적인 사색가',
-                summary: '혁신적이고 호기심이 많으며, 새로운 아이디어와 이론 탐구를 좋아하는 분석적인 사고가입니다.',
-                strengths: '• 객관적인 분석 능력이 뛰어남\n• 독창적이고 창의적임\n• 개방적이고 지적 호기심이 강함\n• 새로운 아이디어에 대한 열정',
-                weaknesses: '• 현실과 동떨어지거나 건망증이 있을 수 있음\n• 반복적인 일상이나 잡담을 견디기 힘들어함\n• 실행력에 대한 자기 의심\n• 타인에게 무심하게 비칠 수 있음',
-                careers: '철학자, 프로그래머, 연구원, 수학자, 대학교수'
+                summary: '혁신적이고 호기심이 많으며, 새로운 아이디어와 이론 탐구를 좋아하는 분석적인 사고가입니다. 근본 원리를 이해하기 위해 끊임없이 주변 세상을 분석하며 생각에 잠겨 있을 때가 많습니다.',
+                strengths: '• 객관적인 분석: 편견 없이 사물을 있는 그대로 바라봅니다.\n• 독창적이고 창의적: 복잡한 문제에 대해 독특한 해결책을 제시합니다.\n• 개방적 사고: 자신의 의견이 틀렸을 때 언제든 수용할 준비가 되어 있습니다.\n• 열정적: 관심 분야에 대해서는 엄청난 에너지와 집중력을 보입니다.',
+                weaknesses: '• 현실과의 단절: 생각에 너무 몰두하여 주변 상황을 놓치기 쉽습니다.\n• 반복되는 일상 기피: 단순하고 반복적인 업무를 매우 지루해합니다.\n• 자기 의심: 너무 많은 분석 끝에 실행 단계에서 주저하는 경향이 있습니다.\n• 무심함: 진실을 중시하다 보니 의도치 않게 타인에게 상처를 줄 수 있습니다.',
+                careers: '철학자, 프로그래머, 연구원, 수학자, 대학교수',
+                famous: '알베르트 아인슈타인, 빌 게이츠, 아이작 뉴턴, 엘리엇 페이지',
+                compatibility: 'ENTJ, ESTJ와 좋은 궁합을 보입니다. 자신의 이론적인 아이디어를 현실로 구현해줄 파트너를 필요로 합니다.',
+                dating: '부담 없는 자유로운 연애를 선호합니다. 지적인 연결과 솔직함을 중시하며, 전형적인 로맨틱한 이벤트에는 서툴 수 있습니다.',
+                communication: '복잡하고 이론적입니다. 비유를 자주 사용하며, 상대방이 자신의 논리를 이해할 것이라 가정하고 세부 사항을 건너뛰기도 합니다.',
+                caution: '엄격한 스케줄이나 의미 없는 잡담을 강요하지 마세요. 그들의 지적인 자율성을 존중해주어야 합니다.'
             },
             'ENTJ': {
                 name: '대담한 통솔자',
-                summary: '대담하고 의지가 강하며, 사람과 자원을 조직하는 데 뛰어난 천성적인 리더입니다.',
-                strengths: '• 효율적이고 생산적임\n• 자신감이 넘치고 의지가 강함\n• 전략적인 사고 능력\n• 카리스마 있고 영감을 주는 리더십',
-                weaknesses: '• 고집이 세고 지배적일 수 있음\n• 비효율을 참지 못함\n• 오만하거나 냉정하게 보일 수 있음\n• 타인의 감정을 다루는 데 미숙함',
-                careers: '기업 경영인, 변호사, 기업가, 판사, 경영 컨설턴트'
+                summary: '대담하고 의지가 강하며, 사람과 자원을 조직하는 데 뛰어난 천성적인 리더입니다. 결단력이 있고 효율성을 무엇보다 중시하며, 목표 달성을 위해 신속하고 효과적으로 상황을 통제합니다.',
+                strengths: '• 효율성 극대화: 어떤 환경에서도 최고의 생산성을 끌어냅니다.\n• 자신감: 자신의 리더십과 성공 가능성을 굳게 믿습니다.\n• 전략적 사고: 큰 그림을 보고 장기적인 계획을 세우는 데 능합니다.\n• 카리스마: 자신의 비전을 통해 타인에게 영감을 주고 이끕니다.',
+                weaknesses: '• 고집과 지배욕: 결정을 내린 후에는 융통성이 부족해질 수 있습니다.\n• 무관용: 비효율적이거나 무능력한 상황을 견디지 못합니다.\n• 오만함: 강한 자신감이 때로는 자만심으로 비칠 수 있습니다.\n• 냉정함: 결과에 집중하다 보니 사람의 감정을 소홀히 할 때가 있습니다.',
+                careers: '기업 경영인, 변호사, 기업가, 판사, 경영 컨설턴트',
+                famous: '스티브 잡스, 고든 램지, 마가렛 대처, 프랭클린 D. 루스벨트',
+                compatibility: 'INFP, INTP와 궁합이 좋습니다. 지적으로 도전이 되면서도 정서적인 깊이를 가진 상대를 선호합니다.',
+                dating: '관심 있는 상대에게 매우 직접적이고 의도적으로 다가갑니다. 성취욕이 강한 파트너를 원하며 솔직한 소통을 중시합니다.',
+                communication: '당당하고 명확하며 업무 지향적입니다. 상대방도 자신처럼 직설적이길 원하며, 논리적인 근거가 확실한 대화를 선호합니다.',
+                caution: '그들의 직설적인 화법을 개인적인 공격으로 받아들이지 마세요. 의견을 제안할 때는 확실한 팩트와 논리를 준비하는 것이 좋습니다.'
             },
             'ENTP': {
                 name: '뜨거운 논쟁을 즐기는 변론가',
-                summary: '지적이고 호기심이 많으며, 전통적인 지혜에 도전하는 것을 즐기는 열정적인 사고가입니다.',
-                strengths: '• 박학다식하고 재치가 넘침\n• 뛰어난 브레인스토밍 능력\n• 카리스마 있고 에너지가 넘침\n• 적응력이 뛰어나고 다재다능함',
-                weaknesses: '• 논쟁 자체를 위해 논쟁하는 경향\n• 타인의 감정에 무심할 수 있음\n• 세부 사항에 집중하기 어려워함\n• 실제 구현보다 아이디어 자체를 선호함',
-                careers: '변호사, 저널리스트, 크리에이티브 디렉터, 마케팅 전문가, 정치 컨설턴트'
+                summary: '지적이고 호기심이 많으며, 전통적인 지혜에 도전하는 것을 즐기는 열정적인 사고가입니다. 지적인 자극에서 활력을 얻으며, 모든 각도에서 아이디어를 탐구하기 위해 반론을 제기하는 것을 즐깁니다.',
+                strengths: '• 박학다식: 광범위한 분야에 호기심이 많고 통찰력이 있습니다.\n• 순발력: 임기응변에 능하며 즉흥적인 상황에서 빛을 발합니다.\n• 카리스마: 넘치는 에너지와 유머 감각으로 사람들을 매료시킵니다.\n• 적응력: 새로운 정보가 들어오면 유연하게 방향을 전환합니다.',
+                weaknesses: '• 논쟁적: 단순히 재미를 위해 논쟁을 벌여 상대를 지치게 할 수 있습니다.\n• 무심함: 논리에 집중하다 말의 정서적 파급력을 간과하곤 합니다.\n• 집중력 부족: 시작은 화려하나 끝맺음이 부족할 때가 많습니다.\n• 실행 기피: 아이디어 구상은 좋아하지만 반복적인 구현 작업은 싫어합니다.',
+                careers: '변호사, 저널리스트, 크리에이티브 디렉터, 마케팅 전문가, 정치 컨설턴트',
+                famous: '로버트 다우니 주니어, 마크 트웨인, 톰 행크스, 토마스 에디슨',
+                compatibility: 'INFJ, INTJ와 잘 맞습니다. 자신의 에너지를 받아주면서도 중심을 잡아줄 수 있는 파트너가 필요합니다.',
+                dating: '예측 불가능하고 흥미진진한 연애를 합니다. 관계에서의 성장과 새로움을 추구하며, 지적 대화가 잘 통하는 상대를 찾습니다.',
+                communication: '재치 있고 도발적이며 언변이 뛰어납니다. 토론 자체를 즐기며, 대화 주제를 빠르게 전환하는 경향이 있습니다.',
+                caution: '그들의 논쟁이 지적 유희일 뿐 개인적인 공격이 아님을 이해하세요. 그들이 좋은 아이디어를 끝까지 실행할 수 있도록 격려해주는 것이 좋습니다.'
             },
             'INFJ': {
                 name: '선의의 옹호자',
@@ -366,6 +416,26 @@ function renderDetails(type) {
         <div class="detail-section">
             <span class="detail-header">${t.headers.careers}</span>
             <p class="detail-content">${data.careers}</p>
+        </div>
+        <div class="detail-section">
+            <span class="detail-header">${t.headers.famous}</span>
+            <p class="detail-content">${data.famous}</p>
+        </div>
+        <div class="detail-section">
+            <span class="detail-header">${t.headers.compatibility}</span>
+            <p class="detail-content">${data.compatibility}</p>
+        </div>
+        <div class="detail-section">
+            <span class="detail-header">${t.headers.dating}</span>
+            <p class="detail-content">${data.dating}</p>
+        </div>
+        <div class="detail-section">
+            <span class="detail-header">${t.headers.communication}</span>
+            <p class="detail-content">${data.communication}</p>
+        </div>
+        <div class="detail-section">
+            <span class="detail-header">${t.headers.caution}</span>
+            <p class="detail-content">${data.caution}</p>
         </div>
     `;
 }
