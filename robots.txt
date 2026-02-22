@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mbti-insight.pages.dev/sitemap.xml
+Sitemap: https://start-3pi.pages.dev/sitemap.xml
