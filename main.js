@@ -539,6 +539,7 @@ let currentTheme = localStorage.getItem('theme') || 'light';
 function updateUI() {
     const t = translations[currentLang] || translations.en;
     
+    htmlElement.setAttribute('lang', currentLang);
     mainTitle.textContent = t.title;
     mainSubtitle.textContent = t.subtitle;
     aboutTitle.textContent = t.aboutTitle;
@@ -565,6 +566,8 @@ function renderGrid() {
     Object.keys(translations.en.data).forEach(type => {
         const card = document.createElement('div');
         card.classList.add('mbti-card');
+        card.setAttribute('role', 'button');
+        card.setAttribute('aria-label', `View details for ${type}`);
         
         const iconContainer = document.createElement('div');
         iconContainer.innerHTML = icons[type];
@@ -598,39 +601,39 @@ function renderDetails(type) {
     
     mbtiDesc.innerHTML = `
         <div class="detail-section">
-            <span class="detail-header">${t.headers.summary}</span>
+            <h3 class="detail-header">${t.headers.summary}</h3>
             <p class="detail-content">${data.summary}</p>
         </div>
         <div class="detail-section">
-            <span class="detail-header">${t.headers.strengths}</span>
+            <h3 class="detail-header">${t.headers.strengths}</h3>
             <p class="detail-content">${data.strengths}</p>
         </div>
         <div class="detail-section">
-            <span class="detail-header">${t.headers.weaknesses}</span>
+            <h3 class="detail-header">${t.headers.weaknesses}</h3>
             <p class="detail-content">${data.weaknesses}</p>
         </div>
         <div class="detail-section">
-            <span class="detail-header">${t.headers.careers}</span>
+            <h3 class="detail-header">${t.headers.careers}</h3>
             <p class="detail-content">${data.careers}</p>
         </div>
         <div class="detail-section">
-            <span class="detail-header">${t.headers.famous}</span>
+            <h3 class="detail-header">${t.headers.famous}</h3>
             <p class="detail-content">${data.famous}</p>
         </div>
         <div class="detail-section">
-            <span class="detail-header">${t.headers.compatibility}</span>
+            <h3 class="detail-header">${t.headers.compatibility}</h3>
             <p class="detail-content">${data.compatibility}</p>
         </div>
         <div class="detail-section">
-            <span class="detail-header">${t.headers.dating}</span>
+            <h3 class="detail-header">${t.headers.dating}</h3>
             <p class="detail-content">${data.dating}</p>
         </div>
         <div class="detail-section">
-            <span class="detail-header">${t.headers.communication}</span>
+            <h3 class="detail-header">${t.headers.communication}</h3>
             <p class="detail-content">${data.communication}</p>
         </div>
         <div class="detail-section">
-            <span class="detail-header">${t.headers.caution}</span>
+            <h3 class="detail-header">${t.headers.caution}</h3>
             <p class="detail-content">${data.caution}</p>
         </div>
     `;
